@@ -1,0 +1,29 @@
+<------step wise commands to setup git in window or linux----->
+
+1. make a dir--> mkdir git
+
+2. git init ---> to initilize git personal directory
+
+3. git --version 
+
+4. git config --global user.name "your name"
+
+5. git config --global user.email "your eamil"
+
+6. git status
+
+7. git add .
+
+8. git commit -m " your message"
+
+9. git log ----> give info who is commit the code 
+
+10. git show <commit id> -----> information about the commit
+
+11. git remote add origin <git repo url>
+
+12. git push -u origin master 
+
+    then you need to enter your github id and password to push the  code on particular repo
+
+13. git pull -u origin master  -----> first you need to give the url of that repo by above command
